@@ -11,6 +11,7 @@ import {
   PropsDinamisScreen,
   CommunicationScreen,
   Communication2Screen,
+  SelectedScreen,
 } from '../screens';
 import { BackFABComponent } from '../components';
 import { View } from 'react-native';
@@ -75,6 +76,11 @@ const RootNavigator = () => {
         <Stack.Screen
           name="Communication2Screen"
           component={Communication2Screen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="SelectedScreen"
+          component={SelectedScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

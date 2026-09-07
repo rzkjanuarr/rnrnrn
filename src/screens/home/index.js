@@ -49,6 +49,11 @@ const data = [
     name: 'Comunication2Screen',
     screen: 'Communication2Screen',
   },
+  {
+    id: 10,
+    name: 'SelectedScreen',
+    screen: 'SelectedScreen',
+  },
 ];
 
 const HomeScreen = ({ navigation }) => {

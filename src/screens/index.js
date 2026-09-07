@@ -9,3 +9,4 @@ export { default as Latihan3Screen } from './latihan3';
 export { default as PropsDinamisScreen } from './props_dinamis';
 export { default as CommunicationScreen } from './communication';
 export { default as Communication2Screen } from './communication2';
+export { default as SelectedScreen } from './selected';
