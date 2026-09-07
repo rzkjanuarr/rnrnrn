@@ -23,8 +23,10 @@ export default function Communication2Screen() {
       const res = json.map(ProductDTO.fromJson);
       console.log(res);
 
-      setProducts(res);
-      setIsLoading(false);
+      setTimeout(() => {
+        setProducts(res);
+        setIsLoading(false);
+      }, 2000);
     } catch (error) {
       console.log('gagal ambil data:', error);
       setIsLoading(false);

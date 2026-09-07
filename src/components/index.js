@@ -8,3 +8,4 @@ export { default as ProductComponent } from './product';
 export { default as LoadingComponent } from './loading';
 export { default as EmptyDataComponent } from './empty';
 export { default as SearchComponent } from './search';
+export { default as BackFABComponent } from './back';

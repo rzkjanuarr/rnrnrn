@@ -9,8 +9,13 @@ export default function CommunicationScreen() {
 
   return (
     <SafeAreaView>
-      <CartComponent jumlahKeranjang={totalProduct} />
-      <ProductComponent onClickBos={() => setTotalProduct(totalProduct + 1)} />
+      <CartComponent quantityProduct={totalProduct} />
+      <ProductComponent
+        onClickProduct={() => setTotalProduct(totalProduct + 1)}
+      />
+      <View style={{ paddingHorizontal: 24 }}>
+        <Text>{totalProduct}</Text>
+      </View>
     </SafeAreaView>
   );
 }
