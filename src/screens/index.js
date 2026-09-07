@@ -1,0 +1,11 @@
+export { default as HomeScreen } from './home';
+export { default as EDashboard1Screen } from './edashboard1';
+export { default as SplashScreen } from './splash';
+export { default as ELogin1Screen } from './elogin1';
+export { default as ELogin2Screen } from './elogin2';
+export { default as LatihanScreen } from './latihan';
+export { default as Latihan2Screen } from './latihan2';
+export { default as Latihan3Screen } from './latihan3';
+export { default as PropsDinamisScreen } from './props_dinamis';
+export { default as CommunicationScreen } from './communication';
+export { default as Communication2Screen } from './communication2';
