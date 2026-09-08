@@ -1,9 +1,9 @@
 import React from 'react';
 import { SafeAreaView, Text, TouchableOpacity, View } from 'react-native';
 
-export default function Screen6({ nav }) {
+export default function Screen6({ navigation }) {
   const handleNav = () => {
-    nav.navigate('Screen7', {
+    navigation.navigate('Screen7', {
       fromScreen6: 'gue dari screen6 bro!',
     });
   };

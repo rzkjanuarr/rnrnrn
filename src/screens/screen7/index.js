@@ -2,10 +2,10 @@ import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-export default function Screen7({ nav, route }) {
+export default function Screen7({ navigation, route }) {
   const { fromScreen6 } = route.params;
   const handleNavScreen7 = () => {
-    nav.navigate('Screen8', {
+    navigation.navigate('Screen8', {
       fromScreen6: fromScreen6,
       fromScreen7: 'gue dari screen 7 bro!',
     });
