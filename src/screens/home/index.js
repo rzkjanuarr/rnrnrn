@@ -54,6 +54,46 @@ const data = [
     name: 'SelectedScreen',
     screen: 'SelectedScreen',
   },
+  {
+    id: 11,
+    name: 'ScreenA',
+    screen: 'ScreenA',
+  },
+  {
+    id: 12,
+    name: 'ScreenB',
+    screen: 'ScreenB',
+  },
+  {
+    id: 13,
+    name: 'ScreenC',
+    screen: 'ScreenC',
+  },
+  {
+    id: 14,
+    name: 'Screen1',
+    screen: 'Screen1',
+  },
+  {
+    id: 15,
+    name: 'Screen2',
+    screen: 'Screen2',
+  },
+  {
+    id: 16,
+    name: 'Screen3',
+    screen: 'Screen3',
+  },
+  {
+    id: 17,
+    name: 'Screen4',
+    screen: 'Screen4',
+  },
+  {
+    id: 18,
+    name: 'Screen5',
+    screen: 'Screen5',
+  },
 ];
 
 const HomeScreen = ({ navigation }) => {

@@ -12,6 +12,14 @@ import {
   CommunicationScreen,
   Communication2Screen,
   SelectedScreen,
+  ScreenA,
+  ScreenB,
+  ScreenC,
+  Screen1,
+  Screen2,
+  Screen3,
+  Screen4,
+  Screen5,
 } from '../screens';
 import { BackFABComponent } from '../components';
 import { View } from 'react-native';
@@ -81,6 +89,46 @@ const RootNavigator = () => {
         <Stack.Screen
           name="SelectedScreen"
           component={SelectedScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="ScreenA"
+          component={ScreenA}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="ScreenB"
+          component={ScreenB}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="ScreenC"
+          component={ScreenC}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen1"
+          component={Screen1}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen2"
+          component={Screen2}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen3"
+          component={Screen3}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen4"
+          component={Screen4}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen5"
+          component={Screen5}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
