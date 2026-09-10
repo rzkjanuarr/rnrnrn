@@ -25,6 +25,12 @@ import {
   Screen8,
   Screen9,
   Screen10,
+  Screen11,
+  Screen12,
+  Screen13,
+  Screen14,
+  Screen15,
+  Screen16,
 } from '../screens';
 import { BackFABComponent } from '../components';
 import { View } from 'react-native';
@@ -159,6 +165,36 @@ const RootNavigator = () => {
         <Stack.Screen
           name="Screen10"
           component={Screen10}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen11"
+          component={Screen11}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen12"
+          component={Screen12}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen13"
+          component={Screen13}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen14"
+          component={Screen14}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen15"
+          component={Screen15}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Screen16"
+          component={Screen16}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
