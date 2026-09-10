@@ -23,6 +23,7 @@ export default function Screen12({ navigation, route }) {
           gap: 10,
         }}>
         <TouchableOpacity
+          onPress={handleNavScreen12}
           style={{
             borderWidth: 1,
             borderColor: 'black',
