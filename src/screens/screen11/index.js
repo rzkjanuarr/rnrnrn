@@ -1,7 +1,13 @@
 import { Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-export default function Screen11() {
+export default function Screen11({ navigation }) {
+  const handleNavScreen11 = () => {
+    navigation.navigate('Screen12', {
+      dataFromScreen11: 'helo gue dari screen 11!',
+    });
+  };
+
   return (
     <SafeAreaView
       style={{
@@ -15,6 +21,7 @@ export default function Screen11() {
           gap: 10,
         }}>
         <TouchableOpacity
+          onPress={handleNavScreen11}
           style={{
             borderWidth: 1,
             borderColor: 'black',
