@@ -2,7 +2,8 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function Screen14({ navigation, route }) {
-  const { dataFromScreen11, dataFromScreen12, datafromScreen13 } = route.params;
+  const { dataFromScreen11, dataFromScreen12, datafromScreen13 } =
+    route.params ?? {};
   const handleNavScreen14 = () => {
     navigation.navigate('Screen15', {
       dataFromScreen11: dataFromScreen11,

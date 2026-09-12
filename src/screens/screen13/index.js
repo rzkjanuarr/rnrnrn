@@ -2,7 +2,7 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function Screen13({ navigation, route }) {
-  const { dataFromScreen11, dataFromScreen12 } = route.params;
+  const { dataFromScreen11, dataFromScreen12 } = route.params ?? {};
   const handleNavScreen13 = () => {
     navigation.navigate('Screen14', {
       dataFromScreen11: dataFromScreen11,
@@ -40,7 +40,7 @@ export default function Screen13({ navigation, route }) {
             borderWidth: 1,
             borderColor: 'red',
           }}>
-          {dataFromScreen11} - {dataFromScreen12}
+          {dataFromScreen11 ?? ''} - {dataFromScreen12 ?? ''}
         </Text>
       </View>
     </SafeAreaView>

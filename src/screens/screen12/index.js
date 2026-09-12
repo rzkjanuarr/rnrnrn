@@ -2,7 +2,7 @@ import { Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function Screen12({ navigation, route }) {
-  const { dataFromScreen11 } = route.params;
+  const { dataFromScreen11 } = route.params ?? {};
   const handleNavScreen12 = () => {
     navigation.navigate('Screen13', {
       dataFromScreen11: dataFromScreen11,
@@ -39,7 +39,7 @@ export default function Screen12({ navigation, route }) {
             borderWidth: 1,
             borderColor: 'red',
           }}>
-          {dataFromScreen11}
+          {dataFromScreen11 ?? 'Data tidak tersedia!'}
         </Text>
       </View>
     </SafeAreaView>

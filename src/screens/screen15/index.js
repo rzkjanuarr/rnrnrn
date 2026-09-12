@@ -8,7 +8,7 @@ export default function Screen15({ navigation, route }) {
     dataFromScreen12,
     datafromScreen13,
     dataFromScreen14,
-  } = route.params;
+  } = route.params ?? {};
   console.log('rut.params : screen 15', route.params);
 
   const handleNavScreen15 = () => {
