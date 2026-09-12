@@ -15,8 +15,9 @@ export default function Screen16({ navigation, route }) {
       style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <View style={{ alignItems: 'center' }}>
         <Text>
-          {dataFromScreen11} - {dataFromScreen12} - {datafromScreen13} -{' '}
-          {dataFromScreen14} - {dataFromScreen15}
+          {dataFromScreen11 ?? ''} - {dataFromScreen12 ?? ''} -{' '}
+          {datafromScreen13 ?? ''} -{dataFromScreen14 ?? ''} -{' '}
+          {dataFromScreen15 ?? ''}
         </Text>
       </View>
     </SafeAreaView>
