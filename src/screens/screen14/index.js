@@ -31,6 +31,16 @@ export default function Screen14({ navigation, route }) {
           }}>
           <Text>goto screen 15!</Text>
         </TouchableOpacity>
+        <Text
+          style={{
+            borderWidth: 1,
+            borderColor: 'red',
+            paddingVertical: 10,
+            paddingHorizontal: 10,
+          }}>
+          {dataFromScreen11 ?? ''} - {dataFromScreen12 ?? ''} -{' '}
+          {datafromScreen13 ?? ''}
+        </Text>
       </View>
     </SafeAreaView>
   );

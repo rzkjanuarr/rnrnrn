@@ -29,6 +29,7 @@ export default function Screen15({ navigation, route }) {
       }}>
       <View style={{ alignItems: 'center', gap: 10 }}>
         <TouchableOpacity
+          onPress={handleNavScreen15}
           style={{
             borderWidth: 1,
             borderColor: 'black',
@@ -43,11 +44,11 @@ export default function Screen15({ navigation, route }) {
             borderWidth: 1,
             borderColor: 'red',
           }}>
-          DEBUG: {JSON.stringify(route.params)}
+          DEBUG : {JSON.stringify(route.params)}
         </Text>
         <Text>
-          {dataFromScreen11} - {dataFromScreen12} - {datafromScreen13} -
-          {dataFromScreen14}
+          {dataFromScreen11 ?? ''} - {dataFromScreen12 ?? ''} -{' '}
+          {datafromScreen13 ?? ''} - {dataFromScreen14 ?? ''}
         </Text>
       </View>
     </SafeAreaView>
