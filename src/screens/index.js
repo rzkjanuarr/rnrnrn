@@ -29,3 +29,6 @@ export { default as Screen13 } from './screen13';
 export { default as Screen14 } from './screen14';
 export { default as Screen15 } from './screen15';
 export { default as Screen16 } from './screen16';
+export { default as Screen20 } from './screen20';
+export { default as Screen21 } from './screen21';
+export { default as Screen22 } from './screen22';

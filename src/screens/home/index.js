@@ -149,6 +149,21 @@ const data = [
     name: 'Screen16',
     screen: 'Screen16',
   },
+  {
+    id: 30,
+    name: 'Screen20',
+    screen: 'Screen20',
+  },
+  {
+    id: 31,
+    name: 'Screen21',
+    screen: 'Screen21',
+  },
+  {
+    id: 32,
+    name: 'Screen22',
+    screen: 'Screen22',
+  },
 ];
 
 const HomeScreen = ({ navigation }) => {
